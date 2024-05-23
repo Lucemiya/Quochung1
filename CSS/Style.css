@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+.jaro {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+Body{
+	 font-family: "Jaro", sans-serif;font-size: 
+16px;color: #666666;margin: 0;background-color: #231E20
+}
+header{
+	width: 100% ;height:  80px; background-color:darkorange;padding-top: 12px
+}
+.menu ul{
+	margin: 0;padding: 0; list-style: none;display: flex
+}
+.menu{
+	
+	padding-top: 17px
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration:
+	none ; color: #231E20; border-radius: 0px
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+.img-100{
+	width: 100%; height: auto
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:50px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color: darkred;
+      text-decoration: none; }
+
+main{
+width: 100%; min-height: 900px;
+}
+aside{
+	width:30%;padding: 15px;min-height: 400px;
+}
+.content{
+	width:100%;padding: 15px;min-height:400px;
+}
+.text-do{
+	color:darkred
+}
+aside ul{
+	margin:0; padding: 0; list-style: none;display: flex; flex-direction: column
+}
+aside ul li a{
+	padding:10px;text-decoration: none;display: block;color: #231E20
+}
+aside ul li{
+	border-bottom: 1px solid #231E20
+}
+aside ul li a:hover{
+	background-color: darkred; color: white
+}
+footer{
+	width:100%;min-height: 300px;background-color:#FF8C00
+}
+footer a{
+	text-decoration: none; color: #231E20
+}
+footer a:hover{
+	color:darkred
+}
+.bg-xanh{
+	background-color: aquamarine
+}
+footer ul{
+	margin:0; padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	padding: 10px; display: block
+}
+footer ul li a:hover{
+	color: white
+}
+.caption2{
+	text-align: center;color: azure; text-decoration: none
+}
+.text-den{
+	color: #231E20
+}
+.text-trang{
+	color: #FFFFFF
+}
+#contact{
+	wwidth:70%; min-height: 300px;background-repeat: no-repeat;background-size: cover;background-position: center center	
+}
+.shadow{
+	width: 70%;min-height: 50px;border: 1px solid darkgray;box-shadow:5px 5px 5px gray; padding:30px
+}
+.form-control{
+	padding:8px; width:100%; margin-bottom:10px
+}
